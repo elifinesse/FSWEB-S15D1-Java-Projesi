@@ -9,9 +9,8 @@ public class ShoppingCart {
         List<String> shoppingCart = new LinkedList<>();
         System.out.println("Alışveriş listem: " + shoppingCart);
         Scanner scanner = new Scanner(System.in);
-        boolean isRunning = true;
         String action;
-        while(isRunning){
+        while(true){
             try{
                 System.out.println("Ne yapmak istiyorsunuz?");
                 action = scanner.next();
